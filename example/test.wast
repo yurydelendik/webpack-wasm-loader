@@ -1,0 +1,10 @@
+(module
+  (import "time" "elapsed" (func (result f64)))
+  (export "answer" (func $answer))
+  (func $answer (result i32)
+    (if (f64.lt (call 0) (f64.const 7.5e+9))
+      (then (unreachable))
+    )
+    (i32.const 42)
+  )
+)

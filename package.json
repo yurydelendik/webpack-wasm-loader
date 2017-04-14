@@ -1,0 +1,16 @@
+{
+  "name": "webpack-wasm-loader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./loader/wasm-loader.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "file-loader": "^0.11.1",
+    "wasmparser": "^0.3.1"
+  }
+}
